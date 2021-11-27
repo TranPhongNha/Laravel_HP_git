@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 
 class LoginController extends Controller
 {
-    //
+    //dịnh nghĩa hàm getLogin
+    public function getLogin(){
+        return view('backend.login');
+    }
 }
